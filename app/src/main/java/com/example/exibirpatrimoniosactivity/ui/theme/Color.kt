@@ -2,10 +2,12 @@ package com.example.exibirpatrimoniosactivity.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Identidade do InvScan
+val InvScanBlue = Color(0xFF00008B)       // barras e botões
+val InvScanIconBlue = Color(0xFF6B90C3)   // ícone de localização
+val InvScanWelcome = Color.Yellow         // mensagem de boas-vindas
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Campos
+val FieldBorder = Color(0xFF7A7A7A)
+val FieldPlaceholder = Color(0xFFA0A0A0)
+val FieldLabel = Color.DarkGray
